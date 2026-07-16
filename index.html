@@ -10,14 +10,15 @@
       href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <section class="main">
       <section class="content">
-        <header class="header">Desserts</header>
+        <h1 class="header">Desserts</h1>
         <section class="product-cards-block">
-          <section class="product-cards">
+          <div class="product-cards">
             <article class="product-card">
               <img
                 class="product-card__img"
@@ -162,8 +163,8 @@
                 </div>
               </div>
             </article>
-          </section>
-          <section class="product-cards">
+          </div>
+          <div class="product-cards">
             <article class="product-card">
               <img
                 class="product-card__img"
@@ -308,8 +309,8 @@
                 </div>
               </div>
             </article>
-          </section>
-          <section class="product-cards">
+          </div>
+          <div class="product-cards">
             <article class="product-card">
               <img
                 class="product-card__img"
@@ -454,17 +455,17 @@
                 </div>
               </div>
             </article>
-          </section>
+          </div>
         </section>
       </section>
 
-      <section class="cart">
+      <aside class="cart">
         <p class="cart__header">Your Cart (0)</p>
-        <article class="cart__content">
+        <div class="cart__content">
           <img src="/img/Empty_cart.jpg" alt="" />
           <p class="cart__message">Your added items will appear here</p>
-        </article>
-      </section>
+        </div>
+      </aside>
     </section>
   </body>
 </html>

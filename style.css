@@ -1,9 +1,9 @@
 /* Главная страница */
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+  } */
   
   body {
     font-family: "Red Hat Text", sans-serif;
@@ -35,13 +35,14 @@
     margin-bottom: 32px;
   }
 
-  .product-card {
-    /* position: relative; */
-  }
-
-  /* .product-card__img {
+  /* .product-card {
     position: relative;
   } */
+
+  .product-card__img {
+    position: relative;
+  }
+
    .product-card__cart-and-information {
     position: relative;
     margin-top: 30px;
@@ -62,7 +63,7 @@
     font-size: 14px;
 
     position: absolute;
-    bottom: 83px;
+    bottom: 65px;
     left: 46px;
   }
 
